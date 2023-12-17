@@ -1,0 +1,30 @@
+#pragma once
+#ifndef _DEFINITION_H
+#define _DEFINITION_H
+
+#define PROC_SEARCH                 (WM_USER + 0x0000)
+#define PROC_SEARCH_NAME            (WM_USER + 0x0001)
+#define PROC_ID                     (WM_USER + 0x0002)
+
+#define IDC_BASE                     (WM_USER + 0x00F0)
+#define IDC_INJECT_CLICK_EVENT       (IDC_BASE + 0x0001)
+#define IDC_ADVENCED_CLICK_EVENT     (IDC_BASE + 0x0002)
+#define IDC_OPEN_DLL_DIALOG          (IDC_BASE + 0x0003)
+#define IDC_OPEN_PROCESS_DIALOG      (IDC_BASE + 0x0004)
+#define IDC_OPEN_FUNC_DIALOG		 (IDC_BASE + 0x0005)
+#define IDC_OPEN_PROCESS_CLICK_EVENT (IDC_BASE + 0x0006)
+#define IDC_LISTBOX_CLICK_EVENT      (IDC_BASE + 0x0007)
+
+#define IDC_INJECT_METHOD_NATIVE    (IDC_BASE + 0x0005)
+#define IDC_INJECT_METHOD_THREAD    (IDC_BASE + 0x0005)
+#define IDC_INJECT_METHOD_KERNEL    (IDC_BASE + 0x0005)
+
+#define IDC_OPEN_PARAMS_DIALOG    (IDC_BASE + 0x000A)
+
+#define IDC_COUNT_COMBO 101
+#define IDC_ELEMENT_CONTROLS_START 200
+#define IDC_RESULT_BUTTON 999
+
+#endif
+
+#pragma once
